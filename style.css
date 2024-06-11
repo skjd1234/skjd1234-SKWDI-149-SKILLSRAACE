@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background: url('header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header .btn {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+/* Features Section */
+.features {
+    background-color: #f9f9f9;
+}
+
+.feature-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Call to Action Section */
+.cta {
+    background: url('cta-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* Contact Section */
+.contact .form-control {
+    border-radius: 5px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s;
+}
+
+.contact .form-control:focus {
+    border-color: #007bff;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #007bff;
+}
